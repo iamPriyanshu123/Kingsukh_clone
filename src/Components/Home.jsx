@@ -1,7 +1,7 @@
 import React from "react";
 import Out from "../pictures/out.jpg";
 import Ayodhya from "../pictures/ayodhya.webp";
-import Large from "../pictures/Large.jpg";
+import large from "../pictures/large.jpg";
 import Small from "../pictures/small.jpg";
 import Baranti from "../pictures/baranti.webp";
 import Service from "../pictures/service.jpg";
@@ -129,7 +129,7 @@ export const Home = () => {
                     </div>
                     <div className='md:w-auto pb-20 mt-6  relative'>
                         <div>
-                            <img className='rounded-t-xl' src={Large} alt="" />
+                            <img className='rounded-t-xl' src={large} alt="" />
                         </div>
                         <div className='shadow-xl'>
                             <h4 className='font-semibold text-xl ml-4'>Spacious Serenity Suite</h4>
@@ -185,7 +185,7 @@ export const Home = () => {
           </div>
           <div className="h-auto xl:p-8 relative xl:-left-24 mt-8">
             <div className="m-4">
-              <img className="rounded-t-xl" src={Large} alt="" />
+              <img className="rounded-t-xl" src={large} alt="" />
             </div>
             <div className="shadow-xl bg-white m-4">
               <h4 className="font-semibold text-xl ml-4">
@@ -333,7 +333,7 @@ export const Home = () => {
 
           <img src={Ayodhya} class="col-span-1 object-cover w-full h-full" />
           <img src={Small} class="col-span-1 object-cover w-full h-full" />
-          <img src={Large} class="col-span-1 object-cover w-full h-full" />
+          <img src={large} class="col-span-1 object-cover w-full h-full" />
           <img
             src="https://media.istockphoto.com/id/1464591970/photo/modern-luxury-riad-living-room-garden-and-swimming-pool-in-courtyard-morocco-style.jpg?s=2048x2048&w=is&k=20&c=EVm4osXVu5CQ574l7yNbTCkjD89yVy8AfFHb3Hcghts="
             class="col-span-1 object-cover w-full h-full"
