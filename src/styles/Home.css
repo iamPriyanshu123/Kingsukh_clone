@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url("../pictures/ayodhya.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.booking-form {
+  width: 1180px;
+}
+.service-cont {
+  background-image: url("../pictures/palash.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 75vh; */
+  margin: 0px;
+}
+
+@media screen and (max-width: 820px) {
+  .booking-form {
+    width: 100%;
+  }
+  .service-inner-cont {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    margin-bottom: 50px;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cont-text {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .header-head {
+    opacity: 0.8;
+  }
+
+}
+.footer-list:hover{
+  color: white;
+}
+
+/* Hover underline */
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid #e82574 !important;
+}
+
+/* Focused underline */
+.MuiInput-underline:after {
+  border-bottom: 2px solid #e82574 !important;
+}
+
+
+/* Focused label color */
+.MuiInputLabel-root.Mui-focused {
+  color: #e82574 !important;
+}
+
+
+
+@media screen and (max-width: 380px) {
+  .header {
+    height: 120vh;
+  }
+}

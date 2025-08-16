@@ -1,0 +1,25 @@
+.Navbar-cont{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2rem;
+    margin: 0rem 5rem;
+}
+li{
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    font-size: 19px;
+    color:aliceblue;
+    cursor: pointer;
+}
+h3{
+    color: aliceblue;
+}
+@media screen and (max-width:868px){
+   .Navbar-cont{
+    display: none;
+   }
+}
+    
+
+    

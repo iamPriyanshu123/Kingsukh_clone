@@ -1,0 +1,17 @@
+.menu-cont{
+    display: none;
+}
+@media screen and (max-width:850px){
+     .menu-cont{
+        display: flex;
+        justify-content:space-between;
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        width: 100vw;
+    } 
+    .container{
+        background-color: #E82574;
+        
+    }
+}
