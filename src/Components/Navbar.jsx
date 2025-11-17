@@ -14,7 +14,7 @@ export const Navbar = () => {
                         <li><a href="#Services">Services</a></li>
                         <li><a href="#Rooms">Rooms</a></li>
                         <li> <a href='#Gallery'>Gallery</a></li>
-                        <li>Contact</li>
+                        <li><a href='#Contact-Us'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="nav-item relative left-16">

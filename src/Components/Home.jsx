@@ -342,12 +342,12 @@ export const Home = () => {
           <img src={Service} class="col-span-1 object-cover w-full h-full" />
         </div>
       </section>
-      <section className="Contact-form min-h-screen">
+      <section className="Contact-form min-h-screen"id="Contact-Us">
         <div className="relative lg:mt-20 m-auto lg:ml-36 flex flex-col lg:flex-row items-center lg:items-start justify-center  lg:gap-0 lg:bg-white  bg-[#e82574]">
           {/* Main form item */}
           <div className="form-item w-[90%] lg:w-[60vw] bg-white m-auto mt-4 lg:mt-0 shadow-[0_20px_40px_rgba(0,0,0,0.40)] rounded-3xl py-6 min-h-[70vh]">
             <div className="flex justify-center mt-8 lg:mr-64">
-              <h3 className="text-[#e82574] lg:text-[1.5vw] text-[5vw] font-semibold">
+              <h3 className="text-[#e82574] lg:text-[1.5vw] text-[5vw] font-semibold" >
                 Send a Message
               </h3>
             </div>
