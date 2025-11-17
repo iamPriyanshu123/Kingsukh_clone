@@ -345,7 +345,7 @@ export const Home = () => {
       <section className="Contact-form min-h-screen">
         <div className="relative lg:mt-20 m-auto lg:ml-36 flex flex-col lg:flex-row items-center lg:items-start justify-center  lg:gap-0 lg:bg-white  bg-[#e82574]">
           {/* Main form item */}
-          <div className="form-item lg:rounded-3xl  w-[90%] h-[60vh] lg:w-[60vw] lg:h-[80vh] m-auto bg-white mt-4 lg:mt-0 shadow-[0_20px_40px_rgba(0,0,0,0.40)] ...">
+          <div className="form-item w-[90%] lg:w-[60vw] bg-white m-auto mt-4 lg:mt-0 shadow-[0_20px_40px_rgba(0,0,0,0.40)] rounded-3xl py-6 min-h-[70vh]">
             <div className="flex justify-center mt-8 lg:mr-64">
               <h3 className="text-[#e82574] lg:text-[1.5vw] text-[5vw] font-semibold">
                 Send a Message
@@ -356,7 +356,7 @@ export const Home = () => {
               sx={{ "& .MuiTextField-root": { m: 1, width: "30ch" } }}
               noValidate
               autoComplete="off"
-              className="lg:ml-60 lg:mt-8 ml-12"
+               className="px-6 lg:ml-60 lg:mt-8"
             >
               <div>
                 <TextField
@@ -393,11 +393,10 @@ export const Home = () => {
                 />
               </div>
               <br />
-              <button className="bg-pink-600 w-36 h-12 text-emerald-50 rounded-3xl text-lg mt-4 ">
+              <button className="bg-pink-600 w-full lg:w-36 h-12 text-white rounded-3xl text-lg mt-4 align-middle">
                 Send
               </button>
             </Box>
-         
           </div>
 
           {/* Side box */}
@@ -454,7 +453,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </section>
 
       <section className="Location mt-4 lg:mt-0">
